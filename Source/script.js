@@ -8,12 +8,14 @@ let counter = $.querySelector(".counter");
 inputElem.addEventListener("focus", function () {
   spanElems.forEach(function (spanTag) {
     spanTag.style.color = "#58cff1";
+    spanTag.style.borderColor = "#58cff1";
   });
 });
 
 inputElem.addEventListener("blur", function () {
   spanElems.forEach(function (spanTag) {
     spanTag.style.color = "rgba(0, 0, 0, 70%)";
+    spanTag.style.borderColor = "rgba(0, 0, 0, 70%)";
   });
 });
 
