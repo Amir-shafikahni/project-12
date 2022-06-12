@@ -21,6 +21,7 @@
     align-items: center;
     height: 100px;
     width: 70%;
+    max-width: 800px;
     border-radius: 10px; 
     background-color: #f1f1f1;
 }
